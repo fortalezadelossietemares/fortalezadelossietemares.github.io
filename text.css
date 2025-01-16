@@ -1,0 +1,27 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0a0;
+  background-image: url('/img/bg.png');
+  background-blend-mode: lighten;
+  background-position: center;
+  background-size: cover;
+}
+
+body > * {
+  text-decoration: none;
+  color: #333;
+
+  border: 1px solid #ccc;
+  background-color: #f8f8f8a0;
+  width: 90vw;
+  margin: 2vh auto;
+  padding: 2vh 2vw;
+
+  border-radius: 10px;
+}
